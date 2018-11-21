@@ -1,0 +1,140 @@
+body
+{
+    background: url(./background.jpg.jpg) no-repeat fixed;
+    background-size: cover;
+    color: black;
+    font-family: 'Century Gothic';
+}
+
+#bloc_page
+{
+    width: 100%;
+    margin: auto;
+    background-color: rgba(225,225,225,0.7);
+    padding-bottom: 10px;
+    padding-top: 20px;
+}
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Century Gothic";
+
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+    font-family: "Century Gothic";
+
+}
+
+
+header h1
+{
+font-family: "Century Gothic";;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+#banniere_image
+{
+    margin-top: 15px;
+    height: 300px;
+    border-radius: 5px;
+    background: url(../laptop/od.jpg.jpg);
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+    text-align: center;
+}
+
+#banniere_description
+{
+    position: absolute;
+    bottom: 0;
+    border-radius: 0px 0px 5px 5px;
+    width: 99.5%;
+    height: 33px;
+    padding-top: 15px;
+    padding-left: 4px;
+    background-color: rgba(24,24,24,0.8);
+    color: white;
+    font-size: 0.9em;
+    
+}
+
+footer, footer p
+{
+    display: block;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+     background-color: rgba(225,225,225,0.7);
+    color: black;
+    font-family: "century gothic";
+
+}
+
+.images{
+        border-radius: 25px 25px;
+    width: 80%;
+    margin-bottom: 30px;
+        
+}
+#console{
+   display: inline;
+    opacity: 0.92;
+            border-radius: 25px 25px;
+
+    
+}
+#console, h1 {
+  font-family:  "century gothic";
+    text-align: center;        
+}
+a{
+    color: crimson;
+}
+#menu{
+padding:0;
+margin:0;
+list-style:none;
+}
+#menu li{
+display:inline-block;
+position:relative;
+border-radius:8px 8px 0 0;
+    margin:0.8px;
+}
+
+#menu li{
+background-color: darkgrey;
+background-image: -webkit-linear-gradient(top, darkgrey 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, darkgrey 0%, #333A40 100%);
+}
+
+#menu li:hover{
+background: darkgrey;
+}
+
+#menu a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+
+#menu li:hover a{
+color:#000;
+}
+h1, h2{
+    background-color: rgba(225,225,225,0.8);
+    text-align: center;
+    
+}

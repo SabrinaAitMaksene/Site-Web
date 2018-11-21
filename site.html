@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <title> DYos - High Technology </title>
+         <link rel="stylesheet" href="site.css">
+                       <script language="javascript">
+ function verifform()
+  {
+   if(document.formulaire.nom.value == "")
+    {
+     alert("Entrez votre nom svp!");
+     document.formulaire.nom.focus();
+     return false;
+    }
+       if(document.formulaire.prenom.value == "")
+    {
+     alert("Entrez votre prenom svp!");
+     document.formulaire.prenom.focus();
+     return false;
+    }
+
+   if(document.formulaire.email.value == "")
+    {
+     alert("Veuillez entrer votre adresse électronique svp!");
+     document.formulaire.email.focus();
+     return false;
+    }
+   if(document.formulaire.age.value == "")
+    {
+     alert(" Entrez votre âge svp!");
+     document.formulaire.age.focus();
+     return false;
+    }
+   if(document.formulaire.email.value.indexOf('@') == -1)
+    {
+     alert("Votre email n'est pas valide!");
+     document.formulaire.email.focus();
+     return false;
+    }
+  var verif = 1;
+   for(i=0;i<document.formulaire.age.value.length;++i)
+     if(document.formulaire.age.value.charAt(i) < "0"
+     || document.formulaire.age.value.charAt(i) > "9")
+       verif = -1;
+   if(verif == -1)
+   {
+     alert("La mention de votre âge n'est pas un nombre!");
+     document.formulaire.age.focus();
+     return false;
+    }
+      else{
+          alert("Votre message a été envoyé avec succès");}
+  }
+    </script>
+    </head>
+  
+<body>
+    <div id="bloc_page">
+            <header>
+                <div id="titre_principal">
+                        <H1> Dyos-Tech </H1>    
+                    </div>
+                           <audio src="games/Fullmetal%20Alchemist%20Brotherhood%20Opening%201-Again%20creditless.mp3" controls>
+                           
+			
+   </header>
+        </div>
+   <br><br> <br>
+        <ul id="menu">
+                       <center>
+                        <li><a href="../site.html">Accueil</a></a></li>
+                        <li><a href="./laptop/pagelaptop.html">Laptops</a></a></li>
+                        <li><a href="./smarth/tel.html">Smartphone</a></a></li>
+                        <li><a href="./smarth/htmltab.html">Tablette</a></a></li>
+                        </li>
+                        <li><a href="./games/games.html">Jeux vidéos</a></a></li>
+                        <li><a href="./tv/tv.html"> TV</a></a></li>
+                        <li><a href="./yacine/page2.html">NINTINDO NX</a></a></li>
+                        
+                        <li><a href="./yacine/page3.html"> TOP 5</a></a></li>
+                        </center>
+                    </ul>
+
+<br/>
+<br><br><br>
+ <div id="banniere_image">
+                <div id="banniere_description">
+                      Pour tous vos achats se réferer a 
+                       <a href="http://www.materiel.net/"> CE SITE </a> 
+                    <img src="./games/flecheblanchedroite.png" alt="" h />
+                </div>
+            </div>
+            <br>
+            <hr><br>
+<div id=centrer>
+<div id="main" >
+	<div id="slide">
+		<a href="./yacine/page2.html" target="_blank"
+		><img src="./yacine/nin_nx-min.png" width="100%" height="100%"/></a>
+		<a href="./yacine/page3.html" target="_blank"><img src="./yacine/nn5.jpg" width="100%" height="100%" /></a>
+		<a href="./yacine/page3.html" target="_blank"><img src="./yacine/pc_4.JPG"width="100%" height="100%"/></a>
+	</div>
+</div>
+	</div>
+	<h1> Présentation du Site:</h1>
+<div id="des">
+    <p> Ohayo Les Gens !</p><p><p>Voilà donc nous sommes Un groupe de 4 étudiants en L2 LMD Informatique, nous avons fusionner afin de déveloper un site assez original pour que tous visiteur puisse profiter de ces services, donc, Dyos ce n'est que les initiaux de Nos Prenom (Dehbia, Yacine, Odile, Sabrina)
+    </p>
+       <br>  Notre site vise le public qui s'interresse aux nouvelles technologies, que ça soit dans l'outil informatique ou électronique, On peut dire que chaque jour des nouveautés apparaissent dans le monde de la technologie, ce monde là nous (membre de ce site), nous l'avons appellé "SHIN SEKAI", </p><p> qui veut dire tout simplement "nouveau Monde" en Japonnais. Vous pouvez trouver y tous types de produits (des nouveautés mais aussi des éditions qui ont été une explosion de vente), nous allons aussi vous faire part de certaines informations et nous allons vous guidez afin que vous soyez le mieux informé que possible, <br>
+        Arigato!, et bonne visite !!</p><p>
+ <b>Un petit PS: Si vous desirez nous contactez n'hesitez surtout pas à nous laissez vos coordonnées ci-dessous rubrique : NOUS CONTACTEZ ! </b></p>
+ </div>
+ <div id=titr>
+		<h2>Divers</h2>
+		<ul>
+		<li><a href="yacine/page3.html" target="_blank"> TOP des Sorties 2016</a></li>
+		<li><a href="http://www.cnetfrance.fr/news/premiere-mondiale-ebay-ouvre-un-magasin-en-realite-virtuelle-39837144.htm"target="_blank">Première mondiale : Ebay ouvre un magasin en réalité virtuelle</a></li> 
+		<li><a href="yacine//page2.html"target="_blank"> Nintindo NX </a></li>
+		<li><a href="http://www.gratuiciel.com/"  > Pour télecharger des Logiciels Gratuitement et facilement </a></li>
+		</ul>
+	</div>
+	
+ <br><br>
+	<hr width=80%>
+            <footer>
+                <br/>
+                   <h3>Nous Contacter</h3>
+     
+         <form name="formulaire" action="" method="post"><br>
+        <div>
+        <p><label for="Nom">Nom:</label><input type=text name="nom"size=40></p>
+        <p><label for="Prénom">Prénom:</label> <input type=text name="prenom"size=40></p>
+        <p><label for="Age">Age:</label><input type=text name="age"size=10></p>
+        <p><label for="Adresse mail">Adresse mail:</label><input type=text name="email"size=40></p> 
+        <p><label for="Sex">Sex:</label><input type=radio name="h" value="homme" checked>Homme<input type=radio name="h"              value="femme">Femme</p>
+        <p><label for="etes">Etes vous un expert ?</label><input type=radio name="o" value="oui" checked>oui<input                    type=radio name="o" value="non">non</p>
+        <p><label for="nom">Laisser votre message:</label><textarea name="comm" srows=60 cols=50></textarea>
+        </div>  
+     <input type=button value=" Confirmer" style="cursor:pointer; padding:5px 20px; background-color: grey; border:dotted 2px grey; border-radius:5px;" onClick="return verifform()">
+     <input type="reset" value="  Effacer   "style="cursor:pointer; padding:5px 20px; background-color: grey;            border:dotted 2px grey; border-radius:5px;">
+     <input type=button value="  Annuler  "style="cursor:pointer; padding:5px 20px; background-color:grey;              border:dotted 2px grey; border-radius:5px;" onclick="self.location.href=''" target="_parent">
+  </form>
+                   <hr width=80%>
+                    <p id="footer"><b> © 2016-2017  SHIN SEKAI</b></p>
+                  </footer>
+	</body>
+</html>   

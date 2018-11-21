@@ -1,0 +1,139 @@
+body
+{
+    background: url(red.jpg) no-repeat fixed;
+    background-size: cover;
+    color: black;
+    font-family: 'Century Gothic';
+}
+#bloc_page
+{
+    padding-top: 2%;
+    padding-bottom: 2%;
+    margin: auto;
+    background-color: rgba(225,225,225,0.8);
+}
+ footer h1, nav a
+{
+    font-weight: normal;
+    text-transform: uppercase;
+    color: darkblue;
+    margin-left: 10px;
+    
+}
+/* Header */
+
+header
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    font-family: "Century Gothic";
+
+}
+
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+    font-family: "Century Gothic";
+
+}
+
+header h1
+{
+font-family: "Century Gothic";;
+    font-size: 2.5em;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+}
+
+nav ul
+{
+    list-style-type: none;
+    display: flex;
+background-color: darkgray;
+}
+
+nav li
+{
+
+    margin-right: 15px;
+}
+
+nav a
+{
+    font-family: "century gothic";
+    font-size: 1.3em;
+    color: #181818;
+    padding-bottom: 3px;
+    text-decoration: none;
+}
+
+nav a:hover
+{
+    color: blue;
+}
+#banniere_image
+{
+    margin-top: 15px;
+    height: 350px;
+    border-radius: 2px;
+    background: url(od.jpg) 10%;
+    position: relative;
+    box-shadow: 0px 4px 4px #1c1a19;
+    margin-bottom: 25px;
+}
+
+
+footer, footer p
+{
+    display: block;
+    font-size: 1.2em;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+    text-decoration-color: black;
+    font-family: "century gothic";
+    text-decoration-style: double;
+}
+
+.titre{
+    text-align: center;
+}
+.image{
+    width: 200px;
+    height: 320px;
+}
+   
+.a{
+    
+    opacity: 0.8;
+}
+.images
+{
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 600px;
+    background-color: dimgrey;
+    opacity: 0.8;
+
+}
+.images h1
+{
+    font-size: 1.6vw;
+    font-family: "century gothic";
+}
+.images li
+{
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    margin-left: -25%;
+    margin-top: 5%;
+    font-size: 1.5vw;
+    font-weight: 800;
+    color: rgba(0,0,0,0.8)
+}

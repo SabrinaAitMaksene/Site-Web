@@ -1,0 +1,141 @@
+#menu{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+}
+
+#menu li{
+display:inline-block;
+position:relative;
+}
+#menu li{
+background-color: darkgrey;
+background-image: -webkit-linear-gradient(top, darkgrey 0%, #333A40 100%);
+background-image:linear-gradient(to bottom, darkgrey 0%, #333A40 100%);
+}
+
+#menu li:hover{
+background: grey;
+}
+
+#menu a{
+text-decoration:none;
+display:block;
+padding:12px 39px;
+color:#fff;
+font-family:'century gothic';
+}
+#menu li:hover a{
+color:#000;
+}
+img{
+       	border-radius: 55px 55px ;
+        align-content: center;
+}
+.caractéristiques{
+font-weight: bold;
+}
+.nom{
+	font-size: 20px;
+	font-weight: bold;
+	text-align: center;
+}
+#bloc_page
+{
+    width: 100%;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    margin: auto;
+    background-color: rgba(225,225,225,0.8);
+}
+#titre_principal
+{
+    display: flex;
+    flex-direction: column;
+    font-family: "Century Gothic";
+
+}
+
+header h1
+{
+font-family: "Century Gothic";;
+    font-size: 2.5em;
+    margin-left: 0px;
+    font-weight: normal;
+    margin: 0 0 0 10px;
+    
+}
+audio{
+    margin-left: 75%;
+}
+table{
+border-collapse: collapse;
+}
+td{
+border: 1px solid black;
+}
+.i{
+	text-align: center;
+}
+#li{
+	list-style: none;
+	display:inline-table;
+	padding: none;
+	width: 20em;
+}
+table{
+	width: 100%;
+}
+#yes{
+	width: 9%;
+}	
+#no{
+	width: 6%;
+}	
+#centre{
+width: 80%;
+;}
+#header{
+	text-align: center;
+}
+div{
+	width: auto;
+	margin: auto;
+}
+body{
+    background-color: lightgray;
+}
+#menu2{
+padding:0;
+margin:0;
+list-style:none;
+text-align:center;
+
+}
+
+#menu2 li{
+display: inline-block;
+position: inherit;
+}
+#menu2 li{
+background-color: darkred;
+    width: 15%;
+
+}
+
+#menu2 li:hover{
+background: grey;
+}
+
+#menu2 a{
+text-decoration:none;
+display:block;
+padding:8px 32px;
+color:#fff;
+font-family:arial;
+}
+
+#menu2 li:hover a{
+color:#000;
+}
